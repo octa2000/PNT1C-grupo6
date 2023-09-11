@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Inicio de Sesión</title>
+    <link rel="stylesheet" type="text/css" href="style-loginform.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <form action="procesar_login.php" method="post">
+            <h2>Bienvenido!</h2>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required><br><br>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required><br><br>
+
+            <input type="submit" value="Iniciar Sesión">
+            
+            <footer>
+                <div class = "footer-content">
+                    <a href="#" class="login-forgot-pass">Olvidaste tu contraseña?</a>
+                </div>
+            </footer>
+    </div>
+    
+</body>
+</html>
