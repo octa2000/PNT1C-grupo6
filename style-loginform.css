@@ -1,5 +1,5 @@
 <!--Stylesheet-->
-    <style media="screen">
+    style media ="screen">
       *,
 *:before,
 *:after{
@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(imagenes/piedrasBlancas.jpg);
+    background-color: chocolate;
 }
 .background{
     width: 430px;

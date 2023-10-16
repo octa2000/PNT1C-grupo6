@@ -107,7 +107,7 @@ li:hover .dropdown {
 
 #banner {
   text-align: left;
-  background-image: url(imagenes/piedrasBlancas.jpg);
+  background-color: chocolate;
   background-repeat: no-repeat;/* Evita que la imagen se repita*/
   background-size: cover;
   color: white;
